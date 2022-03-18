@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:11.2
 ADD check.sh main.sh /app/
 CMD /app/main.sh
 HEALTHCHECK
