@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:bullseye
 ADD check.sh main.sh /app/
 CMD /app/main.sh
 HEALTHCHECK
